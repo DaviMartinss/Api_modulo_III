@@ -14,7 +14,7 @@ tokens de autenticação e padrões de projetos, como Unit Of Work e Request/Res
  
 <h1 id="Maquina"> Configuração de Máquina</h1>
 
-Para realizar a execução desse projeto na sua máquina é necessário que você realize a instalação do [.Net 5.0 SDK](https://dotnet.microsoft.com/download/visual-studio-sdks), o [PostgreSQL 12](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) e do [POSTMAN](https://www.postman.com/downloads/).  
+Para realizar a execução desse projeto na sua máquina é necessário que você realize a instalação do [.Net 5.0 SDK](https://dotnet.microsoft.com/download/visual-studio-sdks),  [PostgreSQL 12](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) e do [POSTMAN](https://www.postman.com/downloads/).  
 OBS: Se o Visual Studio estiver instalado na sua máquina, é recomendado atualiza-lo ou desinstala-lo antes da instalação do SDK.
 
  <h1 id="VsCode"> Configuração do VS Code</h1>
@@ -42,8 +42,8 @@ OBS: Se o Visual Studio estiver instalado na sua máquina, é recomendado atuali
 ### Rodando o Projeto
 Abra o PgAdim 4, no Visual Studio Code, abra o terminal e digite o seguinte comando: dotnet ef database update. Após digitar tal comando o banco de dados da aplicação deverá está no PgAdim, caso contrário verifique o Server e a port.
     <ul>
-        <li> Execução pelo terminal do Visual Studio Code: Abra o Terminal, entre na pasta da aplicação, e por úlimo, digite o seguinte comando: dotnet run.
-        <li> Abra o Postaman e importe o arquivo de rotas que está ná pasta 
+        <li> Execução pelo terminal do Visual Studio Code: Abra o Terminal, entre na pasta da aplicação, e por último, digite o seguinte comando: dotnet run.
+        <li> Abra o Postman e importe o arquivo api_rest.postman_collection.json que está na pasta api_Rest Postman. Em seguinda, dentro do POST USER você terá que enviar uma requição com o a api em execução. Tal requição irá gerar um token que será usado em todas as requisições feitas nas demais rotas, mas antes você deverá ir no campo de Authorization e em value faça a substituição pelo o token atual.
     </ul>
 
 <h1 id="rota"> Rotas Para o Direcionamento</h1>
