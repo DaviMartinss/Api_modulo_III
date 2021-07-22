@@ -36,3 +36,35 @@ OBS: Se o Visual Studio estiver instalado na sua máquina, é recomendado atuali
   <li><a href="https://marketplace.visualstudio.com/items?itemName=k--kato.docomment">C# XML Documentation</a></li>
   
 </ul>
+
+## Rotas para direcionamento
+ <ul>
+   
+   <li>  POST </li>
+   <ol>
+     <li> Category:  https://localhost:5001/api/category</li>
+     <li> Product:  https://localhost:5001/api/product</li>
+     <li> User:  https://localhost:5001/api/User</li>
+   </ol>
+  
+   <li>  PUT </li>
+   <ol>
+     <li> Category:  https://localhost:5001/api/category/[ID DA CATEGORIA]</li>
+     <li> Product:  https://localhost:5001/api/product/[ID DO PRODUCT]</li>
+     <li> User:  https://localhost:5001/api/User/[ID DO USUARIO]</li>
+   </ol>
+  
+   <li>  GET </li>
+   <ol>
+     <li> Category:  https://localhost:5001/api/category</li>
+     <li> Product:  https://localhost:5001/api/product</li>
+     <li> User:  https://localhost:5001/api/User</li>
+   </ol>
+   
+   <li>  DELETE </li>
+   <ol>
+     <li> Category:  https://localhost:5001/api/category/[ID DA CATEGORIA]</li>
+     <li> Product:  https://localhost:5001/api/product/[ID DO PRODUCT]</li>
+     <li> User:  https://localhost:5001/api/User/[ID DO USUARIO]</li>
+   </ol>
+ </ul
