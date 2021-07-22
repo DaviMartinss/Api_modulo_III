@@ -4,3 +4,6 @@ trabalha com banco de dadoas) do Usuário, Produto e Categoria. Além disso, foi
 tokens de autenticação e padrões de projetos, como Unit Of Work e Request/Response.
 
 # Sumário
+
+Para realizar a execução desse projeto é necessário que você realize a instalação do [.Net 5.0 SDK](https://dotnet.microsoft.com/download/visual-studio-sdks), o [PostgreSQL 12](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) e do [POSTMAN](https://www.postman.com/downloads/).  
+OBS: Se o Visual Studio estiver instalado na sua máquina, é recomendado atualiza-lo ou desinstala-lo antes da instalação do SDK.
