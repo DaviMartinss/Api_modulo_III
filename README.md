@@ -8,6 +8,7 @@ tokens de autenticação e padrões de projetos, como Unit Of Work e Request/Res
 <ul>
   <li><a href = "#Maquina"> Configuração de Máquina</a></li>
   <li><a href = "#VsCode"> Configuração do VS Code</a></li>
+  <li><a href = "#rota"> Rotas</a></li>
   
  </ul>
  
@@ -38,7 +39,7 @@ OBS: Se o Visual Studio estiver instalado na sua máquina, é recomendado atuali
   
 </ul>
 
-## Rotas para direcionamento
+<h1 id="rota"> Rotas Para o Direcionamento</h1>
  <ul>
    
    <li>  POST </li>
