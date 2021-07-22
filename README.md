@@ -39,6 +39,13 @@ OBS: Se o Visual Studio estiver instalado na sua máquina, é recomendado atuali
   
 </ul>
 
+### Rodando o Projeto
+Abra o PgAdim 4, no Visual Studio Code, abra o terminal e digite o seguinte comando: dotnet ef database update. Após digitar tal comando o banco de dados da aplicação deverá está no PgAdim, caso contrário verifique o Server e a port.
+    <ul>
+        <li> Execução pelo terminal do Visual Studio Code: Abra o Terminal, entre na pasta da aplicação, e por úlimo, digite o seguinte comando: dotnet run.
+        <li> Abra o Postaman e importe o arquivo de rotas que está ná pasta 
+    </ul>
+
 <h1 id="rota"> Rotas Para o Direcionamento</h1>
  <ul>
    
